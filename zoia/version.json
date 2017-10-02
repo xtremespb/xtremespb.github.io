@@ -1,6 +1,6 @@
 {
-	"code": "0.17.092901",
-	"url": "https://github.com/xtremespb/zoia/releases/download/update_0.17.092901/zoia_update_17092901.tgz",
-	"checksum": "f64e2373c6cd4fa025b25ecf89849281",
+	"code": "0.17.100201",
+	"url": "https://github.com/xtremespb/zoia/releases/download/update_0.17.100201/zoia_update_17100201.tgz",
+	"checksum": "286062ee8b112309c5fff0cfa6138970",
 	"changelog": ["Bugfixes", "Error page template is re-designed"]
 }
