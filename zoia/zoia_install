@@ -5,7 +5,7 @@ echo
 echo "Install system packages?"
 select yn in "Yes" "No"; do
     case $yn in
-        Yes ) echo; echo "Installing Node.js 8.x sources..."; wget -q -O - https://deb.nodesource.com/setup_8.x | bash; echo "Installing nodejs, mongodb and unzip packages"; apt-get install -y nodejs mongodb unzip &> /dev/null; echo "Installing 'forever' package via npm..."; npm i -g --silent forever; break;;
+        Yes ) echo; echo "Installing Node.js 8.x sources..."; wget -q -O - https://deb.nodesource.com/setup_8.x | bash &> /dev/null; echo "Installing nodejs, mongodb and unzip packages"; apt-get install -y nodejs mongodb unzip &> /dev/null; echo "Installing 'forever' package via npm..."; npm i -g --silent forever; break;;
         No ) echo; echo "Run apt-get 'install nodejs mongodb curl && npm i -g forever' manually"; break;;
     esac
 done
