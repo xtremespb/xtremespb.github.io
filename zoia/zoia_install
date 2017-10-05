@@ -1,0 +1,40 @@
+#!/bin/bash
+echo
+echo "Zoia Web Framework automated installation script"
+echo
+echo "Install system packages?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) echo; echo "Installing curl package..."; apt-get install -y curl &> /dev/null; echo "Installing Node.js 8.x sources..."; curl -sL https://deb.nodesource.com/setup_8.x | bash - &> /dev/null; echo "Installing nodejs, mongodb and unzip packages"; apt-get install -y nodejs mongodb unzip &> /dev/null; echo "Installing 'forever' package via npm..."; npm i -g --silent forever; break;;
+        No ) echo;echo "Run apt-get 'install nodejs mongodb curl && npm i -g forever' manually"; break;;
+    esac
+done
+echo
+echo "Receiving latest release information..."
+URL="`wget -qO- https://xtremespb.github.io/zoia/release.txt`"
+FILE="${URL##*/}"
+echo "Downloading $FILE from server..."
+wget $URL &> /dev/null
+echo "Extracting $FILE..."
+unzip -o $FILE &> /dev/null
+echo "Removing $FILE..."
+rm $FILE
+echo "Installing required packages..."
+npm install --silent
+echo
+echo "Files are downloaded and extracted."
+echo
+echo "Do you wish to install unsing default config.js file?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) echo "Running installer..."; echo; break;;
+        No ) echo; echo "Done."; echo; echo "Modify ./etc/config.js file, then run 'node ./bin/webserver' to start the web server."; exit;;
+    esac
+done
+cd ./bin
+node install.js -f
+cd ..
+echo
+echo "Done."
+echo
+echo "You may run Zoia webserver by executing: 'node ./zoia/webserver'"
