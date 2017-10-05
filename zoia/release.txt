@@ -1,1 +1,1 @@
-https://github.com/xtremespb/zoia/releases/download/update_0.17.100201/zoia_update_17100201.tgz
+https://github.com/xtremespb/zoia/releases/download/release_0.17.100201/zoia_release_17100201.zip
