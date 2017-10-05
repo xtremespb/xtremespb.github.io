@@ -14,7 +14,7 @@ echo "Receiving latest release information..."
 URL="`wget -qO- https://xtremespb.github.io/zoia/release.txt`"
 FILE="${URL##*/}"
 echo "Downloading $FILE from server..."
-wget $URL &> /dev/null
+wget -q $URL
 echo "Extracting $FILE..."
 unzip -o $FILE &> /dev/null
 echo "Removing $FILE..."
