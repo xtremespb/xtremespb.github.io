@@ -1,0 +1,21 @@
+#!/bin/bash
+echo
+echo "Zoia Web Framework automated installation script"
+echo
+echo "Receiving latest release information..."
+URL="`wget -qO- https://xtremespb.github.io/zoia/release.txt`"
+FILE="${URL##*/}"
+echo "Downloading $FILE from server..."
+wget -q $URL
+echo "Extracting $FILE..."
+unzip -o $FILE &> /dev/null
+echo "Removing $FILE..."
+rm $FILE
+echo "Installing required packages..."
+npm install --silent
+echo
+echo "Files are downloaded and extracted."
+echo "Done."
+echo
+echo "You may run Zoia webserver by executing: 'node ./zoia/webserver'."
+echo
