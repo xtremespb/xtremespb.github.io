@@ -1,7 +1,7 @@
 #!/bin/bash
 case "$1" in
         start)
-        forever --pidFile /usr/local/zoia/run/zoia.pid --sourceDir /usr/local/zoia/bin -l /usr/local/zoia/logs/zoia.log -a --minUptime 1$
+        forever --pidFile /usr/local/zoia/run/zoia.pid --sourceDir /usr/local/zoia/bin -l /usr/local/zoia/logs/zoia.log -a --minUptime 1000 --spinSleepTime 1000 start /usr/local/zoia/bin/webserver.js 
         ;;
         stop)
         forever stop /usr/local/zoia/bin/webserver.js
