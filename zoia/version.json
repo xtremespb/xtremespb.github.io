@@ -1,6 +1,6 @@
 {
-	"code": "0.17.100201",
-	"url": "https://github.com/xtremespb/zoia/releases/download/update_0.17.100201/zoia_update_17100201.tgz",
-	"checksum": "286062ee8b112309c5fff0cfa6138970",
-	"changelog": ["Bugfixes"]
+	"code": "0.17.101001",
+	"url": "https://github.com/xtremespb/zoia/releases/download/update_0.17.101001/zoia_update_17101001.tgz",
+	"checksum": "fb1a6457b2da954bf98567a781d3d123",
+	"changelog": ["It's not possible to change admin account and root page in demo mode anymore", "Bugfixes"]
 }
