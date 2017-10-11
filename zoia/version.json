@@ -1,6 +1,6 @@
 {
-	"code": "0.17.101001",
-	"url": "https://github.com/xtremespb/zoia/releases/download/update_0.17.101001/zoia_update_17101001.tgz",
-	"checksum": "fb1a6457b2da954bf98567a781d3d123",
-	"changelog": ["It's not possible to change admin account and root page in demo mode anymore", "Bugfixes"]
+	"code": "0.17.101101",
+	"url": "https://github.com/xtremespb/zoia/releases/download/beta_0.17.101101/update.tgz",
+	"checksum": "b16ccf6719f477ff859dfac092c92b26",
+	"changelog": ["Bugfixes", "Ability to change prefix for modules (auth)", "Code Cleanup"]
 }

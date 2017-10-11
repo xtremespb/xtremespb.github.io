@@ -1,1 +1,1 @@
-https://github.com/xtremespb/zoia/releases/download/release_0.17.101001/zoia_release_17101001.zip
+https://github.com/xtremespb/zoia/releases/download/beta_0.17.101101/release.zip
