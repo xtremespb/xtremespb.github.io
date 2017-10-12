@@ -1,0 +1,13 @@
+docker build --no-cache -t zoia .
+docker run -p 3000:3000 -d --name zoia --link=mongo:mongodb zoia
+docker rm $(docker ps -a -q)
+docker pull mongo:latest
+docker run -d --name mongo mongo
+docker run --link=mongo:mongodb -it zoia /bin/bash
+docker exec -it zoia /bin/bash
+
+docker pull mongo:latest
+docker pull xtremespb/zoia:latest
+docker run -d --name mongo mongo
+docker run -p 3000:3000 -d --name zoia --link=mongo:mongo xtremespb/zoia
+docker exec -it zoia node /usr/local/zoia/bin/install.js
