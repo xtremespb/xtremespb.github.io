@@ -1,6 +1,6 @@
 {
-	"code": "0.17.101101",
-	"url": "https://github.com/xtremespb/zoia/releases/download/beta_0.17.101101/update.tgz",
-	"checksum": "b16ccf6719f477ff859dfac092c92b26",
-	"changelog": ["Bugfixes", "Ability to change prefix for modules (auth)", "Code Cleanup"]
+	"code": "0.17.101301",
+	"url": "https://github.com/xtremespb/zoia/releases/download/beta_0.17.101301/update.tgz",
+	"checksum": "b9cc682aa381f2391054080b7568540e",
+	"changelog": ["IMPORTANT: you cannot upgrade to this version automatically! You will need to run npm run config to generate the proper configuration files. Be sure to save your secret and salt before running the command above!", "Configuration files are now in JSON format and non-versioned", "Version is now included with the package.json file", "Bugfixes"]
 }
