@@ -1,6 +1,6 @@
 {
-	"code": "0.17.101301",
-	"url": "https://github.com/xtremespb/zoia/releases/download/beta_0.17.101301/update.tgz",
-	"checksum": "b9cc682aa381f2391054080b7568540e",
-	"changelog": ["IMPORTANT: you cannot upgrade to this version automatically! You will need to run npm run config to generate the proper configuration files. Be sure to save your secret and salt before running the command above!", "Configuration files are now in JSON format and non-versioned", "Version is now included with the package.json file", "Bugfixes"]
+	"code": "0.17.101601",
+	"url": "https://github.com/xtremespb/zoia/releases/download/beta_0.17.101601/update.tgz",
+	"checksum": "51c360c5f5b1ad2a47b926bfc93e9c1b",
+	"changelog": ["Bugfixes", "Installer has been modified to support advanced Docker configuration"]
 }
