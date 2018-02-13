@@ -32,7 +32,8 @@ select yn in "Yes" "No"; do
     esac
 done
 cd ./bin
-node install.js -f
+node config.js
+node install.js
 cd ..
 echo
 echo "Done."

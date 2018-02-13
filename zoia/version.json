@@ -1,6 +1,6 @@
 {
-	"code": "0.17.101601",
-	"url": "https://github.com/xtremespb/zoia/releases/download/beta_0.17.101601/update.tgz",
-	"checksum": "3d356d8111cd9b32659d2b1aaef6d7da",
-	"changelog": ["Bugfixes", "Installer has been modified to support advanced Docker configuration"]
+	"code": "1.02.1301",
+	"url": "https://github.com/xtremespb/zoia/releases/download/1.02.1301/update.tgz",
+	"checksum": "f43a8653922086628ba3c6b19a8cb6b2",
+	"changelog": ["Many bugfixes and improvements"]
 }

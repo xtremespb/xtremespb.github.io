@@ -16,5 +16,5 @@ npm install --silent
 echo
 echo "Files are downloaded and extracted."
 echo
-echo "Now you need to create your configuration files by executing \"npm run config\"."
+echo "Now you need to create your configuration files by executing \"npm run zoia_config\"."
 echo
