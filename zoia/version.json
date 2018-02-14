@@ -1,6 +1,6 @@
 {
-	"code": "1.02.1302",
-	"url": "https://github.com/xtremespb/zoia/releases/download/1.02.1301/update.tgz",
-	"checksum": "abf82f91716af54e5d7a15080292b8e2",
-	"changelog": ["Many bugfixes and improvements"]
+	"code": "1.02.1401",
+	"url": "https://github.com/xtremespb/zoia/releases/download/1.02.1401/update.tgz",
+	"checksum": "88ceec940b93b48aca68529759cbe75f",
+	"changelog": ["Bugfixes, code cleanup"]
 }
