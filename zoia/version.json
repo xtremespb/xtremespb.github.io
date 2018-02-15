@@ -1,6 +1,6 @@
 {
-	"code": "1.02.1501",
+	"code": "1.02.1502",
 	"url": "https://github.com/xtremespb/zoia/releases/download/1.02.1501/update.tgz",
-	"checksum": "bf819d90183f115d77c73a448e0799e6",
+	"checksum": "294f3db52b6410a63a61d3a54c316a54",
 	"changelog": ["Added configuration and restart options to dashboard", "Bugfixes"]
 }
