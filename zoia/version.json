@@ -1,6 +1,6 @@
 {
-	"code": "1.04.1301",
-	"url": "https://github.com/xtremespb/zoia/releases/download/1.04.1301/update.tgz",
-	"checksum": "6136708ba60c9a8200e811042aeaa5b7",
-	"changelog": ["Bugfixes"]
+	"code": "1.04.2401",
+	"url": "https://github.com/xtremespb/zoia/releases/download/1.04.2401/update.tgz",
+	"checksum": "41f134b86e7c75bd5557c1efa5e8de7b",
+	"changelog": ["Code cleanup", "Bugfixes", "CKEditor updated", "NPM modules updated - please run npm update"]
 }
