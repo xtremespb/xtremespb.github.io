@@ -1,6 +1,6 @@
 {
-	"code": "1.04.2401",
-	"url": "https://github.com/xtremespb/zoia/releases/download/1.04.2401/update.tgz",
-	"checksum": "41f134b86e7c75bd5557c1efa5e8de7b",
-	"changelog": ["Code cleanup", "Bugfixes", "CKEditor updated", "NPM modules updated - please run npm update"]
+	"code": "1.04.2501",
+	"url": "https://github.com/xtremespb/zoia/releases/download/1.04.2501/update.tgz",
+	"checksum": "6e62cd8d0c3c1057ce6fffb2644661f3",
+	"changelog": ["Bugfixes", "Now you can use an URL prefix for language selection"]
 }
