@@ -1,6 +1,6 @@
 {
-	"code": "1.04.2501",
-	"url": "https://github.com/xtremespb/zoia/releases/download/1.04.2501/update.tgz",
-	"checksum": "6950e521e4524e9ad852dd5587b6cd9d",
+	"code": "1.04.2502",
+	"url": "https://github.com/xtremespb/zoia/releases/download/1.04.2502/update.tgz",
+	"checksum": "bf46d428ac490009be4d862ed114b0ad",
 	"changelog": ["Bugfixes", "Now you can use an URL prefix for language selection"]
 }
