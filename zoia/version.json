@@ -1,5 +1,5 @@
 {
-	"code": "1.04.2503",
+	"code": "1.04.2603",
 	"url": "https://github.com/xtremespb/zoia/releases/download/1.04.2601/update.tgz",
 	"checksum": "eb871b3da12aeb17775c706df0c72f28",
 	"changelog": ["Bugfixes", "Code cleanup and lint", "Some typos fixed"]
