@@ -1,6 +1,6 @@
 {
-	"code": "1.04.2701",
-	"url": "https://github.com/xtremespb/zoia/releases/download/1.04.2701/update.tgz",
-	"checksum": "6b915a84a983070b9bb89a7686965805",
-	"changelog": ["Bugfixes"]
+	"code": "1.05.1601",
+	"url": "https://github.com/xtremespb/zoia/releases/download/1.05.1601/update.tgz",
+	"checksum": "1c6c539032e70ed6c81a191cec04ef7d",
+	"changelog": ["Bugfixes", "Serbian translation added (thanks to Звонко Илић)", "Added support for multi-language routes, pages and folders"]
 }
