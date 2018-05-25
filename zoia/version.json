@@ -1,6 +1,6 @@
 {
-	"code": "1.05.1601",
-	"url": "https://github.com/xtremespb/zoia/releases/download/1.05.1601/update.tgz",
-	"checksum": "1c6c539032e70ed6c81a191cec04ef7d",
-	"changelog": ["Bugfixes", "Serbian translation added (thanks to Звонко Илић)", "Added support for multi-language routes, pages and folders"]
+	"code": "1.05.2501",
+	"url": "https://github.com/xtremespb/zoia/releases/download/1.05.2501/update.tgz",
+	"checksum": "dc332cf091a88b22d89f24973fae4672",
+	"changelog": ["Bugfixes", "Please run npm update to update your NPM modules"]
 }
