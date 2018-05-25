@@ -1,6 +1,6 @@
 {
-	"code": "1.05.2501",
-	"url": "https://github.com/xtremespb/zoia/releases/download/1.05.2501/update.tgz",
-	"checksum": "dc332cf091a88b22d89f24973fae4672",
+	"code": "1.05.2502",
+	"url": "https://github.com/xtremespb/zoia/releases/download/1.05.25/update.tgz",
+	"checksum": "09addfacd27c092fb14f3b4ce84621c0",
 	"changelog": ["Bugfixes", "Please run npm update to update your NPM modules"]
 }
